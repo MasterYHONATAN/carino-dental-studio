@@ -1,86 +1,101 @@
-🦷 Cariño Dental Studio
-Sistema Integral de Gestión Odontológica
+<div align="center">
 
-<p align="center">
-Sistema web para la gestión inteligente de pacientes, citas, tratamientos y administración clínica.
+# 🦷 Cariño Dental Studio
+
+### Sistema integral de gestión odontológica
+
+<p>
+  <strong>Paciente, citas y administración clínica</strong> en una plataforma moderna, rápida y adaptable.
 </p>
 
-<p align="center">
-<img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk" />
-<img src="https://img.shields.io/badge/Spring%20Boot-3-green?style=for-the-badge&logo=springboot" />
-<img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" />
-<img src="https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven" />
-<img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" />
-</p>
+[![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=1f1f1f)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/Estado-En%20desarrollo-C5A059?style=for-the-badge)](https://github.com/MasterYHONATAN/carino-dental-studio)
 
-📌 Sobre el proyecto
+📍 **Ayacucho, Perú** &nbsp; · &nbsp; [Repositorio](https://github.com/MasterYHONATAN/carino-dental-studio)
 
-Cariño Dental Studio es un sistema web integral desarrollado para optimizar la gestión médica y administrativa de una clínica odontológica.
+</div>
 
-El proyecto busca centralizar los procesos de atención, automatizar las reservas de citas y facilitar el seguimiento de los pacientes mediante una plataforma moderna, intuitiva y adaptable a dispositivos móviles.
+---
 
-Desarrollado con una arquitectura basada en Java Spring Boot, MySQL y tecnologías web.
+## ✨ ¿Qué hace diferente a Cariño Dental Studio?
 
-Ubicación del proyecto: Ayacucho, Perú.
+<table>
+<tr>
+<td width="50%">
 
-✨ Características principales
-Módulo	Descripción
-🧑‍⚕️ Gestión de pacientes	Registro y administración de pacientes
-📅 Agenda y citas	Reservas, confirmaciones y reprogramaciones
-🕒 Disponibilidad	Visualización de horarios libres y ocupados
-📋 Historial clínico	Seguimiento de diagnósticos y procedimientos
-💰 Finanzas y KPIs	Indicadores de ingresos y actividad clínica
-🦷 Odontograma	Módulo en desarrollo
-👥 Roles del sistema
-1. Paciente
-Registro de datos personales.
-Consulta de disponibilidad.
-Reserva de citas.
-Consulta de información de atención.
-Comprobante digital de reserva.
-2. Asistente / Supervisor
-Gestión de agenda diaria.
-Confirmación y cancelación de citas.
-Reprogramación de horarios.
-Bloqueo de horarios no disponibles.
-Administración de pacientes.
-3. Odontólogo / Administrador
-Acceso a la gestión de pacientes.
-Consulta de historiales clínicos.
-Registro de tratamientos.
-Seguimiento de pacientes.
-Reportes y estadísticas financieras.
-🎨 Diseño y experiencia de usuario
+### 🧑‍⚕️ Atención organizada
+Registro completo de pacientes y seguimiento de diagnósticos, procedimientos e información clínica.
 
-El sistema utiliza una identidad visual elegante y minimalista:
+</td>
+<td width="50%">
 
-Blanco: #FFFFFF
-Blanco cálido: #FAFAF8
-Oro champán: #C5A059
-Oro oscuro: #A37E36
-Negro mate: #18181B
+### 📅 Citas sin complicaciones
+Consulta de disponibilidad, reservas, confirmaciones, cancelaciones y reprogramaciones.
 
-Diseño responsive con enfoque Mobile First.
+</td>
+</tr>
+<tr>
+<td>
 
-🛠️ Tecnologías utilizadas
-Tecnología	Uso
-Java	Lenguaje principal
-Spring Boot 3	Backend y API REST
-Spring Data JPA	Persistencia de datos
-MySQL	Base de datos relacional
-Maven	Gestión de dependencias
-HTML5	Estructura web
-CSS3	Diseño e interfaces
-JavaScript	Interactividad
-Node.js	Servidor local auxiliar
-🏗️ Arquitectura del proyecto
-text
+### 📊 Gestión inteligente
+Indicadores financieros, actividad clínica y reportes para una administración más eficiente.
+
+</td>
+<td>
+
+### 📱 Experiencia adaptable
+Interfaz responsive diseñada para funcionar cómodamente desde computadora y dispositivos móviles.
+
+</td>
+</tr>
+</table>
+
+## 🧩 Módulos principales
+
+| Área | Funcionalidades |
+| :--- | :--- |
+| 👤 **Pacientes** | Registro, edición y administración de datos personales |
+| 📅 **Agenda** | Disponibilidad, reserva y reprogramación de citas |
+| 🕘 **Horarios** | Visualización y bloqueo de horarios disponibles |
+| 📋 **Historial clínico** | Seguimiento de diagnósticos y tratamientos |
+| 💰 **Administración** | Indicadores financieros y actividad clínica |
+| 🦷 **Odontograma** | Planificación visual en desarrollo |
+
+## 👥 Roles del sistema
+
+- **Paciente** — consulta la disponibilidad, reserva citas y conserva su comprobante digital.
+- **Asistente / Supervisor** — administra la agenda, confirma citas y gestiona pacientes.
+- **Odontólogo / Administrador** — revisa pacientes e historiales, registra tratamientos y consulta estadísticas.
+
+---
+
+## 🛠️ Tecnología
+
+<div align="center">
+
+| Backend | Datos | Frontend | Herramientas |
+| :---: | :---: | :---: | :---: |
+| Java · Spring Boot 3 | MySQL · JPA | HTML5 · CSS3 · JavaScript | Maven · Node.js |
+
+</div>
+
+### Composición del proyecto
+
+- **JavaScript** — 44.1%
+- **HTML** — 34.3%
+- **Java** — 18.3%
+- **CSS** — 3.3%
+
+## 🏗️ Arquitectura
+
+```text
 carino-dental-studio/
-│
 ├── database/
 │   ├── schema.sql
 │   └── data.sql
-│
 ├── src/
 │   └── main/
 │       ├── java/com/clinica/odontologia/
@@ -90,124 +105,109 @@ carino-dental-studio/
 │       │   ├── entity/
 │       │   ├── repository/
 │       │   └── service/
-│       │
 │       └── resources/
 │           ├── application.properties
 │           ├── application-mysql.properties
 │           └── static/
-│               ├── css/
-│               ├── img/
-│               ├── js/
-│               ├── index.html
-│               ├── admin.html
-│               └── paciente.html
-│
 ├── pom.xml
-├── server.js
-├── .gitignore
-└── README.md
+└── server.js
+```
 
-🚀 Instalación y ejecución local
-Requisitos previos
-Java JDK compatible con el proyecto.
-Maven.
-MySQL 8.
-Node.js (para el servidor auxiliar).
-Git.
-1. Clonar el repositorio
-bash
+---
+
+## 🚀 Ejecutar localmente
+
+### Requisitos
+
+- Java JDK compatible
+- Maven
+- MySQL 8
+- Node.js
+- Git
+
+### 1. Clonar
+
+```bash
 git clone https://github.com/MasterYHONATAN/carino-dental-studio.git
-
-bash
 cd carino-dental-studio
+```
 
-2. Configurar la base de datos
+### 2. Crear la base de datos
 
-Crear la base de datos y ejecutar los scripts:
+Abre MySQL y ejecuta:
 
-sql
+```sql
 source database/schema.sql;
 source database/data.sql;
+```
 
-3. Configurar MySQL
+### 3. Configurar la conexión
 
-Editar localmente:
+Edita `src/main/resources/application-mysql.properties` con tus datos locales.
 
-src/main/resources/application-mysql.properties
+> ⚠️ Nunca publiques contraseñas, claves privadas o información real de pacientes.
 
-Configurar los datos de conexión correspondientes.
+### 4. Iniciar el backend
 
-No publicar contraseñas ni credenciales reales.
-
-4. Ejecutar Spring Boot
-bash
+```bash
 mvn spring-boot:run -Dspring-boot.run.profiles=mysql
+```
 
-5. Acceder al sistema
-Portal del paciente: http://localhost:8080/index.html
-Panel administrativo: http://localhost:8080/admin.html
-Alternativa: servidor Node.js
-bash
+### 5. Abrir el sistema
+
+- Portal del paciente: <http://localhost:8080/index.html>
+- Panel administrativo: <http://localhost:8080/admin.html>
+
+También puedes probar el frontend con:
+
+```bash
 node server.js
+```
 
+> El servidor Node.js es una alternativa auxiliar para el frontend. No reemplaza Spring Boot ni la base de datos.
 
-Esta alternativa permite visualizar el frontend si el servidor está configurado para servir esos archivos. No sustituye el backend Spring Boot ni su base de datos.
+---
 
-📸 Capturas de pantalla
+## 📸 Capturas de pantalla
 
-Próximamente se agregarán imágenes de las interfaces principales:
+> Próximamente se agregarán imágenes del portal de pacientes, agenda, historial clínico, panel administrativo y odontograma.
 
-Portal de pacientes.
-Panel administrativo.
-Agenda de citas.
-Historial clínico.
-Dashboard financiero.
-Odontograma.
-🔐 Seguridad
+## 🔐 Seguridad y privacidad
 
-El proyecto contempla la importancia de proteger la información clínica y administrativa.
+- Utilizar variables de entorno para credenciales.
+- No subir datos reales de pacientes.
+- Implementar autenticación y autorización por roles.
+- Usar HTTPS en producción.
+- Aplicar copias de seguridad periódicas.
+- Validar auditoría, privacidad y protección de datos antes de usar el sistema con pacientes reales.
 
-No publicar contraseñas ni claves API.
-Utilizar variables de entorno para credenciales.
-No almacenar datos reales de pacientes en archivos públicos.
-Implementar controles de acceso por roles.
-Utilizar conexiones seguras HTTPS en producción.
-Realizar copias de seguridad de la base de datos.
+## 🗺️ Próximas mejoras
 
-Aviso: antes de utilizar el sistema con pacientes reales, deben verificarse los controles de autenticación, autorización, privacidad, auditoría y protección de datos.
+- [ ] Despliegue en la nube y dominio personalizado
+- [ ] Odontograma interactivo completo
+- [ ] Notificaciones automáticas
+- [ ] Reportes PDF
+- [ ] Copias de seguridad automatizadas
+- [ ] Seguridad avanzada de usuarios y roles
+- [ ] Mejoras adicionales para dispositivos móviles
 
-🌐 Despliegue
+## 🎨 Identidad visual
 
-El proyecto está preparado para trabajar hacia un entorno de producción mediante:
+| Blanco | Blanco cálido | Oro champán | Oro oscuro | Negro mate |
+| :---: | :---: | :---: | :---: | :---: |
+| `#FFFFFF` | `#FAFAF8` | `#C5A059` | `#A37E36` | `#18181B` |
 
-Backend Java Spring Boot.
-Base de datos MySQL.
-Variables de entorno.
-Plataforma de alojamiento en la nube.
+---
 
-El enlace público se agregará cuando el despliegue esté completado y verificado.
+<div align="center">
 
-🗺️ Próximas mejoras
-Despliegue en la nube.
-Configuración de dominio personalizado.
-Protección avanzada de usuarios y roles.
-Notificaciones automáticas.
-Odontograma interactivo completo.
-Reportes PDF.
-Copias de seguridad automatizadas.
-Mejoras de experiencia móvil.
-👨‍💻 Desarrollador
+## 👨‍💻 Desarrollador
 
-MasterYHONATAN
+**MasterYHONATAN** · [@MasterYHONATAN](https://github.com/MasterYHONATAN)
 
-GitHub: @MasterYHONATAN
+🦷 **Cariño Dental Studio**  
+Tecnología, innovación y atención odontológica
 
-Repositorio: carino-dental-studio
+*Ayacucho, Perú 🇵🇪*
 
-<p align="center">
-🦷 <strong>Cariño Dental Studio</strong>
-<br/>
-Tecnología, innovación y atención odontológica.
-<br/>
-Ayacucho, Perú 🇵🇪
-</p>
+</div>
