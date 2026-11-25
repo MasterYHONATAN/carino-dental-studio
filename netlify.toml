@@ -1,0 +1,7 @@
+# Cariño Dental Studio is a Spring Boot (Java/Maven) app whose browser frontend
+# is plain HTML/CSS/JS in src/main/resources/static. Netlify can't run the Java
+# backend, so only the static frontend is deployed. It needs no build step and
+# falls back to its built-in demo data (stored in localStorage) when /api is unavailable.
+[build]
+  command = ""
+  publish = "src/main/resources/static"
