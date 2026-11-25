@@ -720,11 +720,17 @@ const ClinicaAPI = {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
       });
-      if (res.ok) return await res.json();
-      const err = await res.json();
-      throw new Error(err.error || 'Error al procesar reserva');
+            if (res.ok) return await res.json();
+      const ct = res.headers.get('content-type') || '';
+      if (ct.includes('application/json')) {
+        const err = await res.json();
+        const backendErr = new Error(err.error || 'Error al procesar reserva');
+        backendErr.backendError = true;
+        throw backendErr;
+      }
+      // Sin backend (404/405 con HTML, p. ej. Netlify): usar modo demo
     } catch (e) {
-      if (e.message && e.message !== 'Failed to fetch') throw e;
+      if (e.backendError) throw e;
     }
 
     // Fallback Mock Local
